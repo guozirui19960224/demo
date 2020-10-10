@@ -1,11 +1,8 @@
 package com.guozr.demo.designpatterm.adapter;
 
-import com.guozr.demo.designpatterm.adapter.PrintBanner;
 import com.guozr.demo.designpatterm.adapter.inter.FileIO;
-import com.guozr.demo.designpatterm.adapter.inter.Print;
 
 import java.io.IOException;
-import java.util.HashMap;
 
 /**
  * @ClassName Main

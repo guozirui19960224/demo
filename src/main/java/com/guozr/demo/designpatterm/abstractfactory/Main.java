@@ -46,6 +46,7 @@ public class Main {
         traySearch.add(google);
 
         Page page = factory.createPage("LinkPage","guozr");
+        //Page page = factory.createPage("TablePage","guozr");
         page.add(trayNews);
         page.add(traySearch);
         page.output();

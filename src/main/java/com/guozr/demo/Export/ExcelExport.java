@@ -140,7 +140,7 @@ public class ExcelExport{
 //                    response.setHeader("Content-Disposition", headStr);
 //                    OutputStream out = response.getOutputStream();
 //                    workbook.write(out);
-                    FileOutputStream out = new FileOutputStream("G:\\bmlcode\\demo\\src\\main\\java\\" + new SimpleDateFormat("yyyyMMddHHmmss").format(new Date()).toString() +".xls");
+                    FileOutputStream out = new FileOutputStream("G:/demo/src/main/resources/templates/" + new SimpleDateFormat("yyyyMMddHHmmss").format(new Date()).toString() +".xls");
                     workbook.write(out);
                     out.close();
                 }
