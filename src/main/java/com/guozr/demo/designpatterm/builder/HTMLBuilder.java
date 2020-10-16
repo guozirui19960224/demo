@@ -42,7 +42,7 @@ public class HTMLBuilder extends/*implements*/ Builder {
     }
 
     @Override
-    public void buildcDone() {
+    public void buildDone() {
         writer.println("</boby></html>");
         writer.close();
     }

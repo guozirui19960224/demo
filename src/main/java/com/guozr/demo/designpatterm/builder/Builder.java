@@ -28,13 +28,13 @@ public abstract class/*interface*/ Builder {
     }
     public void close(){
         if (initialized) {
-            buildcDone();
+            buildDone();
         }
     }
     public abstract void buildTitle(String title);
     public abstract void buildString(String string);
     public abstract void buildItems(String[] items);
-    public abstract void buildcDone();
+    public abstract void buildDone();
     /*public abstract void makeTitle(String title);
     public abstract void makeString(String string);
     public abstract void makeItems(String[] items);

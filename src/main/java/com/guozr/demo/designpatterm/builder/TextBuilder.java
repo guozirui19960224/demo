@@ -32,7 +32,7 @@ public class TextBuilder extends/*implements*/ Builder {
     }
 
     @Override
-    public void buildcDone() {
+    public void buildDone() {
         stringBuffer.append("======\n");
     }
 

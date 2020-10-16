@@ -39,7 +39,7 @@ public class ConcreteBuilder extends Builder implements ActionListener {
     }
 
     @Override
-    public void buildcDone() {
+    public void buildDone() {
         jFrame.getContentPane().add(box);
         jFrame.pack();
         jFrame.addWindowFocusListener(new WindowAdapter() {
