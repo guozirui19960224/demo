@@ -23,7 +23,7 @@ public class Main {
 
         Factory factory = Factory.getFactory(args[0]);
 
-        Link people = factory.createLink("people","http://www.people.com.cn/");
+        /*Link people = factory.createLink("people","http://www.people.com.cn/");
         Link gmw = factory.createLink("gmw","http://www.gmw.cn/");
 
         Link usYahoo = factory.createLink("usYahoo!","http://www.yahoo.com/");
@@ -45,10 +45,11 @@ public class Main {
         traySearch.add(excite);
         traySearch.add(google);
 
-        Page page = factory.createPage("LinkPage","guozr");
+        Page page = factory.createPage("LinkPage","guozr");*/
         //Page page = factory.createPage("TablePage","guozr");
-        page.add(trayNews);
-        page.add(traySearch);
+        Page page = factory.createYahooPage();
+        /*page.add(trayNews);
+        page.add(traySearch);*/
         page.output();
     }
 }

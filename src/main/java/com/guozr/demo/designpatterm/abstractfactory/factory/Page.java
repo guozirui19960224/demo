@@ -12,6 +12,8 @@ import java.util.ArrayList;
  * @Date 2020/9/27 16:28
  **/
 public abstract class Page {
+    //没有继承tray，因为无法向tray中添加page。page定义未tray，
+    //page就变成了item的子类，导致可以被添加至tray中
 
     protected String title;
     protected String author;
