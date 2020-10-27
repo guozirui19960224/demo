@@ -1,5 +1,7 @@
 package com.guozr.demo.designpatterm.bridge;
 
+import com.guozr.demo.designpatterm.bridge.impl.DisplayImpl;
+
 /**
  * @ClassName CountDisplay
  * @Description TODO
@@ -7,7 +9,6 @@ package com.guozr.demo.designpatterm.bridge;
  * @Date 2020/10/19 17:02
  **/
 public class CountDisplay extends Display{
-
 
     public CountDisplay(DisplayImpl impl) {
         super(impl);

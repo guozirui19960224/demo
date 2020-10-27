@@ -1,12 +1,14 @@
 package com.guozr.demo.designpatterm.bridge;
 
+import com.guozr.demo.designpatterm.bridge.impl.DisplayImpl;
+
 /**
  * @ClassName StringDisPlayImpl
  * @Description TODO
  * @Author guozr
  * @Date 2020/10/19 17:02
  **/
-public class StringDisPlayImpl extends DisplayImpl{
+public class StringDisPlayImpl extends DisplayImpl {
 
     private String string;
     private int width;

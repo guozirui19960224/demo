@@ -1,5 +1,7 @@
 package com.guozr.demo.designpatterm.bridge;
 
+import com.guozr.demo.designpatterm.bridge.impl.DisplayImpl;
+
 /**
  * @ClassName Display
  * @Description TODO

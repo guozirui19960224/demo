@@ -1,4 +1,4 @@
-package com.guozr.demo.designpatterm.bridge;
+package com.guozr.demo.designpatterm.bridge.impl;
 
 /**
  * @ClassName DisplayImpl
