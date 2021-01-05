@@ -9,10 +9,6 @@ package com.guozr.demo.Algorithm.sort;
 public class SelectionSort {
 
     public static void sort(int[] arr){
-        if (arr.length == 0) {
-            //一个乱序的数组
-            arr = new int[]{5, 10, 3, 8, 6, 7, 4, 1, 2, 9};
-        }
         //循环操作
         for (int i = 0; i < arr.length ; i++) {
             //初始化一个角标
@@ -36,10 +32,6 @@ public class SelectionSort {
     }
 
     public static void sortChange(int[] arr){
-        if (arr.length == 0) {
-            //一个乱序的数组
-            arr = new int[]{5, 3, 8, 6, 7, 4, 1, 2, 9};
-        }
         //循环操作
         for (int i = 0; i < arr.length / 2; i++) {
             //初始化一个角标
@@ -72,6 +64,7 @@ public class SelectionSort {
     }
 
     public static void main(String[] args) {
-        sortChange(new int[]{});
+        int[] arr = new int[]{5, 3, 8, 6, 7, 4, 1, 2, 9};
+        sortChange(arr);
     }
 }

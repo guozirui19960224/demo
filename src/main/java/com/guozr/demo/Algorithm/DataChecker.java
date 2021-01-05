@@ -1,5 +1,7 @@
 package com.guozr.demo.Algorithm;
 
+import com.guozr.demo.Algorithm.sort.BubbleSort;
+import com.guozr.demo.Algorithm.sort.InsertionSort;
 import com.guozr.demo.Algorithm.sort.Util;
 import com.guozr.demo.Algorithm.sort.SelectionSort;
 
@@ -20,7 +22,9 @@ public class DataChecker {
 
             Arrays.sort(arr1);
             //SelectionSort.sort(arr2);
-            SelectionSort.sortChange(arr2);
+            //SelectionSort.sortChange(arr2);
+            //BubbleSort.sort(arr2);
+            InsertionSort.sort(arr2);
 
             boolean same = true;
             for (int i = 0; i < arr1.length; i++) {
