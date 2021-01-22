@@ -1,4 +1,7 @@
-package com.guozr.demo.designpatterm.Decorator;
+package com.guozr.demo.designpatterm.Decorator.Border;
+
+import com.guozr.demo.designpatterm.Decorator.Border.Border;
+import com.guozr.demo.designpatterm.Decorator.Display.Display;
 
 /**
  * @ClassName UpDownBorder
@@ -9,7 +12,7 @@ package com.guozr.demo.designpatterm.Decorator;
 public class UpDownBorder extends Border {
     private char borderchar;
 
-    protected UpDownBorder(Display display,char borderchar) {
+    protected UpDownBorder(Display display, char borderchar) {
         super(display);
         this.borderchar = borderchar;
     }

@@ -1,4 +1,6 @@
-package com.guozr.demo.designpatterm.Decorator;
+package com.guozr.demo.designpatterm.Decorator.Display;
+
+import com.guozr.demo.designpatterm.Decorator.Display.Display;
 
 /**
  * @ClassName StringDisplay
@@ -6,7 +8,7 @@ package com.guozr.demo.designpatterm.Decorator;
  * @Author guozr
  * @Date 2020/12/14 15:08
  **/
-public class StringDisplay extends Display{
+public class StringDisplay extends Display {
     private String string;
 
     public StringDisplay(String string) {

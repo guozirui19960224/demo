@@ -1,5 +1,12 @@
 package com.guozr.demo.designpatterm.Decorator;
 
+import com.guozr.demo.designpatterm.Decorator.Border.FullBorder;
+import com.guozr.demo.designpatterm.Decorator.Border.SideBorder;
+import com.guozr.demo.designpatterm.Decorator.Border.UpDownBorder;
+import com.guozr.demo.designpatterm.Decorator.Display.Display;
+import com.guozr.demo.designpatterm.Decorator.Display.MultiStringDisplay;
+import com.guozr.demo.designpatterm.Decorator.Display.StringDisplay;
+
 /**
  * @ClassName Main
  * @Description 装饰者

@@ -1,4 +1,6 @@
-package com.guozr.demo.designpatterm.Decorator;
+package com.guozr.demo.designpatterm.Decorator.Display;
+
+import com.guozr.demo.designpatterm.Decorator.Display.Display;
 
 import java.util.ArrayList;
 

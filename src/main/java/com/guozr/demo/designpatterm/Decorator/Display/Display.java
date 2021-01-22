@@ -1,4 +1,4 @@
-package com.guozr.demo.designpatterm.Decorator;
+package com.guozr.demo.designpatterm.Decorator.Display;
 
 /**
  * @ClassName Display

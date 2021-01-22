@@ -1,4 +1,7 @@
-package com.guozr.demo.designpatterm.Decorator;
+package com.guozr.demo.designpatterm.Decorator.Border;
+
+import com.guozr.demo.designpatterm.Decorator.Border.Border;
+import com.guozr.demo.designpatterm.Decorator.Display.Display;
 
 /**
  * @ClassName FullBorder
@@ -6,7 +9,7 @@ package com.guozr.demo.designpatterm.Decorator;
  * @Author guozr
  * @Date 2020/12/14 15:10
  **/
-public class FullBorder extends Border{
+public class FullBorder extends Border {
 
     public FullBorder(Display display) {
         super(display);

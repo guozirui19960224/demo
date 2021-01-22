@@ -1,4 +1,7 @@
-package com.guozr.demo.designpatterm.Decorator;
+package com.guozr.demo.designpatterm.Decorator.Border;
+
+import com.guozr.demo.designpatterm.Decorator.Border.Border;
+import com.guozr.demo.designpatterm.Decorator.Display.Display;
 
 /**
  * @ClassName SideBorder
@@ -6,7 +9,7 @@ package com.guozr.demo.designpatterm.Decorator;
  * @Author guozr
  * @Date 2020/12/14 15:09
  **/
-public class SideBorder extends Border{
+public class SideBorder extends Border {
     private char borderchar;
 
     public SideBorder(Display display, char borderchar) {

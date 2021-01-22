@@ -1,4 +1,6 @@
-package com.guozr.demo.designpatterm.Decorator;
+package com.guozr.demo.designpatterm.Decorator.Border;
+
+import com.guozr.demo.designpatterm.Decorator.Display.Display;
 
 /**
  * @ClassName Border
@@ -6,7 +8,7 @@ package com.guozr.demo.designpatterm.Decorator;
  * @Author guozr
  * @Date 2020/12/14 15:08
  **/
-public abstract class Border extends Display{
+public abstract class Border extends Display {
     protected Display display;
 
     protected Border(Display display) {
