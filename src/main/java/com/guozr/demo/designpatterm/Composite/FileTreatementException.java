@@ -6,12 +6,12 @@ package com.guozr.demo.designpatterm.Composite;
  * @Author guozr
  * @Date 2020/10/27 18:02
  **/
-public class FileTreatmentException extends RuntimeException {
+public class FileTreatementException extends RuntimeException {
 
-    public FileTreatmentException() {
+    public FileTreatementException() {
     }
 
-    public FileTreatmentException(String message) {
+    public FileTreatementException(String message) {
         super(message);
     }
 }

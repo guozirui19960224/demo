@@ -50,7 +50,7 @@ public class Main {
 
             System.out.println("yuki = " + yuki.getFullName());
             System.out.println("Composite = " + file.getFullName());
-        }catch (FileTreatmentException e){
+        }catch (FileTreatementException e){
             e.printStackTrace();
         }
     }
