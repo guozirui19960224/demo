@@ -1,7 +1,7 @@
-package com.guozr.demo.designpatterm.consistency.visitor;
+package com.guozr.demo.designpatterm.accessstructure.visitor;
 
-import com.guozr.demo.designpatterm.consistency.visitor.inter.Element;
-import com.guozr.demo.designpatterm.consistency.visitor.inter.Visitor;
+import com.guozr.demo.designpatterm.accessstructure.visitor.inter.Element;
+import com.guozr.demo.designpatterm.accessstructure.visitor.inter.Visitor;
 
 import java.util.ArrayList;
 import java.util.Iterator;

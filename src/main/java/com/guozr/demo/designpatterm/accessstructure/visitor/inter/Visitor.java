@@ -1,7 +1,7 @@
-package com.guozr.demo.designpatterm.consistency.visitor.inter;
+package com.guozr.demo.designpatterm.accessstructure.visitor.inter;
 
-import com.guozr.demo.designpatterm.consistency.visitor.Directory;
-import com.guozr.demo.designpatterm.consistency.visitor.File;
+import com.guozr.demo.designpatterm.accessstructure.visitor.Directory;
+import com.guozr.demo.designpatterm.accessstructure.visitor.File;
 
 /**
  * @ClassName Visitor

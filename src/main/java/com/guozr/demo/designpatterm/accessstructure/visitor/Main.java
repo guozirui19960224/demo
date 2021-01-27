@@ -1,6 +1,6 @@
-package com.guozr.demo.designpatterm.consistency.visitor;
+package com.guozr.demo.designpatterm.accessstructure.visitor;
 
-import com.guozr.demo.designpatterm.consistency.visitor.exception.FileTreatementException;
+import com.guozr.demo.designpatterm.accessstructure.visitor.exception.FileTreatementException;
 
 import java.util.Iterator;
 

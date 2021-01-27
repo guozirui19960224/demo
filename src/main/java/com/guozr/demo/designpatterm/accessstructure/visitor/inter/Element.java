@@ -1,4 +1,4 @@
-package com.guozr.demo.designpatterm.consistency.visitor.inter;
+package com.guozr.demo.designpatterm.accessstructure.visitor.inter;
 
 /**
  * @ClassName Element

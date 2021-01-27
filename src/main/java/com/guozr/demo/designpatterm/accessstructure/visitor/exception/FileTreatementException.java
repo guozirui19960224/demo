@@ -1,4 +1,4 @@
-package com.guozr.demo.designpatterm.consistency.visitor.exception;
+package com.guozr.demo.designpatterm.accessstructure.visitor.exception;
 
 /**
  * @ClassName FileTreatementException
