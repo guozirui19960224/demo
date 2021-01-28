@@ -24,7 +24,7 @@ public class FileDisplayImpl extends DisplayImpl {
     @Override
     public void rawOpen() {
         try {
-            bufferedReader = new BufferedReader(new FileReader("G:/demo/src/main/resources/templates/"+filename));
+            bufferedReader = new BufferedReader(new FileReader("src/main/resources/templates/"+filename));
             bufferedReader.mark(MAX_READAHEAD_LIMIT);
         } catch (IOException e) {
             e.printStackTrace();

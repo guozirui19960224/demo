@@ -31,7 +31,7 @@ public abstract class Page {
     public void output(){
         try{
             String fileName = title + ".html" ;
-            Writer writer = new FileWriter("G:/demo/src/main/resources/templates/"+fileName);
+            Writer writer = new FileWriter("src/main/resources/templates/"+fileName);
             writer.write(this.makeHtml());
             writer.close();
             System.out.println("编写完成");

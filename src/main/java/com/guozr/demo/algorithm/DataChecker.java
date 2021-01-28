@@ -1,9 +1,7 @@
-package com.guozr.demo.Algorithm;
+package com.guozr.demo.algorithm;
 
-import com.guozr.demo.Algorithm.sort.BubbleSort;
-import com.guozr.demo.Algorithm.sort.InsertionSort;
-import com.guozr.demo.Algorithm.sort.Util;
-import com.guozr.demo.Algorithm.sort.SelectionSort;
+import com.guozr.demo.algorithm.sort.InsertionSort;
+import com.guozr.demo.algorithm.sort.Util;
 
 import java.util.Arrays;
 

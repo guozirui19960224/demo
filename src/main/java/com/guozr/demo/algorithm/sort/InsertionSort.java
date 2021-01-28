@@ -1,4 +1,4 @@
-package com.guozr.demo.Algorithm.sort;
+package com.guozr.demo.algorithm.sort;
 
 /**
  * @ClassName InsertionSort

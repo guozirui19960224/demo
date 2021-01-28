@@ -19,7 +19,7 @@ public class HTMLBuilder extends/*implements*/ Builder {
     public void buildTitle(String title) {
         fileName = title +".html";
         try {
-            writer = new PrintWriter(new FileWriter("G:/demo/src/main/resources/templates/"+fileName));
+            writer = new PrintWriter(new FileWriter("src/main/resources/templates/"+fileName));
         } catch (IOException e) {
             e.printStackTrace();
         }

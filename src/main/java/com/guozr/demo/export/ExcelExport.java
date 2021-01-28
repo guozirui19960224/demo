@@ -1,12 +1,10 @@
-package com.guozr.demo.Export;
+package com.guozr.demo.export;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.HashMap;
 import java.util.List;
 import javax.servlet.http.HttpServletResponse;
 import org.apache.poi.hssf.usermodel.HSSFCell;
@@ -140,7 +138,7 @@ public class ExcelExport{
 //                    response.setHeader("Content-Disposition", headStr);
 //                    OutputStream out = response.getOutputStream();
 //                    workbook.write(out);
-                    FileOutputStream out = new FileOutputStream("G:/demo/src/main/resources/templates/" + new SimpleDateFormat("yyyyMMddHHmmss").format(new Date()).toString() +".xls");
+                    FileOutputStream out = new FileOutputStream("src/main/resources/templates/" + new SimpleDateFormat("yyyyMMddHHmmss").format(new Date()).toString() +".xls");
                     workbook.write(out);
                     out.close();
                 }

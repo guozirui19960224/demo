@@ -12,11 +12,12 @@ import java.util.List;
  * @Date 2020/12/21 17:25
  **/
 public class Practice {
+    //倒排字符串
     public static void reverseString(String str) {
         String s = new StringBuffer(str).reverse().toString();
         System.out.println(s);
     }
-
+    //斐波那契数列
     public static void fibonacci(int n) {
         int[] arr = new int[40];
         arr[0] = 0;

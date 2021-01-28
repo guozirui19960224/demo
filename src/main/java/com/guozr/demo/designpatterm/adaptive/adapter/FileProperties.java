@@ -20,12 +20,12 @@ public class FileProperties extends Properties implements FileIO {
 
     @Override
     public void readFromFile(String filename) throws IOException {
-        load(new FileInputStream("G:/demo/src/main/resources/templates/"+filename));
+        load(new FileInputStream("src/main/resources/templates/"+filename));
     }
 
     @Override
     public void writeToFile(String filename) throws IOException {
-        store(new FileOutputStream("G:/demo/src/main/resources/templates/"+filename),"written by FileProperties");
+        store(new FileOutputStream("src/main/resources/templates/"+filename),"written by FileProperties");
     }
 
     @Override

@@ -9,7 +9,7 @@ package com.guozr.demo.designpatterm.separate.strategy.sort;
 public class Main {
     public static void main(String[] args) {
         String[] data = {
-                "A","C","E","G",
+                "BackWordMatrix","C","E","G",
                 "B","D","F"
         };
         //SortAndPrint sortAndPrint = new SortAndPrint(data,new SelectionSorter());
