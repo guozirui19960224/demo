@@ -6,6 +6,7 @@ package com.guozr.demo.entity;
  */
 public class Demo {
     private String id;
+    private Integer num;
 
     public String getId() {
         return id;
@@ -13,5 +14,13 @@ public class Demo {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public Integer getNum() {
+        return num;
+    }
+
+    public void setNum(Integer num) {
+        this.num = num;
     }
 }

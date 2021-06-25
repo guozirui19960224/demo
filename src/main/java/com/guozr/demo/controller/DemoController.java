@@ -22,12 +22,24 @@ public class DemoController {
     DemoService demoService;
 
     @RequestMapping("/insertDemo")
-    public String testMysql(){
+    public String insertDemo(){
         Demo demo = new Demo();
-        demo.setId(UUID.randomUUID().toString());
+        demo.setId("1234");
+        demo.setNum(null);
         demoService.insertDemo(demo);
         return "success";
     }
+
+    @RequestMapping("/updateDemo")
+    public String updateDemo(){
+        Demo demo = new Demo();
+        demo.setId("1234");
+        demo.setNum(1);
+        demoService.updateDemo(demo);
+        return "success";
+    }
+
+
 
     @RequestMapping("/heart")
     public String heart(){

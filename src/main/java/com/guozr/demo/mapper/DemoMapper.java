@@ -16,4 +16,6 @@ public interface DemoMapper {
     List<Demo> selectDemoList();
 
     void insertDemo(Demo demo);
+
+    void updateDemo(Demo demo);
 }

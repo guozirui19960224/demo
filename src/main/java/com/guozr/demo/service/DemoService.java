@@ -17,4 +17,8 @@ public class DemoService {
     public void insertDemo(Demo demo) {
         demoMapper.insertDemo(demo);
     }
+
+    public void updateDemo(Demo demo) {
+        demoMapper.updateDemo(demo);
+    }
 }

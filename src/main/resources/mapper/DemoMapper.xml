@@ -3,7 +3,7 @@
 <mapper namespace="com.guozr.demo.mapper.DemoMapper">
     <resultMap id="BaseResultMap" type="com.guozr.demo.entity.Demo">
         <id column="id" property="id"/>
-        <!--<result column="driver_name" property="driverName" />-->
+        <result column="num" property="num" />
     </resultMap>
 
     <sql id="Column_List">
@@ -17,6 +17,17 @@
     </select>
 
     <insert id="insertDemo" parameterType="com.guozr.demo.entity.Demo">
-        insert into demo(id) values(#{id})
+        insert into demo(id,num) values(#{id},#{num})
     </insert>
+
+    <update id="updateDemo" parameterType="com.guozr.demo.entity.Demo">
+        update demo set
+        <if test="num == null">
+            num = null
+        </if>
+        <if test="num != null">
+            num = #{num}
+        </if>
+        where id = #{id}
+    </update>
 </mapper>

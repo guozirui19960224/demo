@@ -2,6 +2,7 @@ package com.guozr.demo.code;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
@@ -28,9 +29,28 @@ public class Practice {
         System.out.println(arr[n]);
     }
 
+    //寻找峰值
+    public static void findMax(int[] arr) {
+        //int[] arr = new int[]{2,4,1,2,7,8,4};
+        int max = 0;
+        for (int i : arr) {
+            if (max < i){
+                max = i;
+            }
+        }
+        int index = 0;
+        for (int i = 0; i < arr.length - 1 ;i++) {
+            if (max == arr[i]){
+                index = i;
+            }
+        }
+        System.out.println(index);
+    }
+
     public static void main(String[] args) {
         //reverseString("abcd");
         //fibonacci(39);
+        findMax(new int[]{2,4,1,2,7,8,4});
 
     }
 }
