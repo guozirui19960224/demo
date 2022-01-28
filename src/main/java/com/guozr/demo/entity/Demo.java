@@ -23,4 +23,12 @@ public class Demo {
     public void setNum(Integer num) {
         this.num = num;
     }
+
+    @Override
+    public String toString() {
+        return "Demo{" +
+                "id='" + id + '\'' +
+                ", num=" + num +
+                '}';
+    }
 }

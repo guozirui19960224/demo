@@ -24,7 +24,7 @@ public class DemoController {
     @RequestMapping("/insertDemo")
     public String insertDemo(){
         Demo demo = new Demo();
-        demo.setId("1234");
+        demo.setId(UUID.randomUUID().toString());
         demo.setNum(null);
         demoService.insertDemo(demo);
         return "success";

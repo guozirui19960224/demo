@@ -5,7 +5,9 @@ import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -15,11 +17,15 @@ public class DemoApplicationTests {
 
     @Test
     public void contextLoads() {
-        List<String> list = new ArrayList();
+        /*List<String> list = new ArrayList();
         list.add("8");
         list.add("9");
         String newStr = list.stream().collect(Collectors.joining(","));
-        System.out.println(newStr);
+        System.out.println(newStr);*/
+
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+        System.out.println(new Date());
+        sdf.format(new Date());
     }
 
 }
