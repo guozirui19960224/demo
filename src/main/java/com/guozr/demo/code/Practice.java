@@ -1,10 +1,7 @@
 package com.guozr.demo.code;
 
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 /**
  * @ClassName Practice
@@ -47,10 +44,23 @@ public class Practice {
         System.out.println(index);
     }
 
+    //计算时间差
+    private static void countTimeSub(){
+        Calendar cal = Calendar.getInstance();
+        cal.add(Calendar.DAY_OF_YEAR, 1);
+        cal.set(Calendar.HOUR_OF_DAY, 0);
+        cal.set(Calendar.SECOND, 0);
+        cal.set(Calendar.MINUTE, 0);
+        cal.set(Calendar.MILLISECOND, 0);
+        System.out.println(new Date(cal.getTimeInMillis()));
+        System.out.println((cal.getTimeInMillis() - System.currentTimeMillis()) / 1000);
+    }
+
     public static void main(String[] args) {
         //reverseString("abcd");
         //fibonacci(39);
-        findMax(new int[]{2,4,1,2,7,8,4});
+        //findMax(new int[]{2,4,1,2,7,8,4});
+        //countTimeSub()
 
     }
 }
