@@ -1,5 +1,8 @@
 package com.guozr.demo.code;
 
+import com.guozr.demo.util.ElectronicFence;
+
+import java.awt.geom.Point2D;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
@@ -61,6 +64,25 @@ public class Practice {
         //fibonacci(39);
         //findMax(new int[]{2,4,1,2,7,8,4});
         //countTimeSub()
-
+        /*List<Point2D.Double> doubles = new ArrayList<>();
+        Point2D.Double point2D1 = new Point2D.Double();
+        point2D1.setLocation(0,50);
+        Point2D.Double point2D2 = new Point2D.Double();
+        point2D2.setLocation(100,50);
+        Point2D.Double point2D3 = new Point2D.Double();
+        point2D3.setLocation(50,0);
+        Point2D.Double point2D4 = new Point2D.Double();
+        point2D4.setLocation(50,100);
+        doubles.add(point2D3);
+        doubles.add(point2D1);
+        doubles.add(point2D4);
+        doubles.add(point2D2);
+        Point2D.Double point2D5 = new Point2D.Double();
+        point2D5.setLocation(62.5,87.75);
+        boolean b = ElectronicFence.IsPtInPoly(doubles, point2D5);
+        System.out.println(b);*/
+        String str = "A1";
+        String substring = str.substring(0, 1);
+        System.out.println(substring);
     }
 }
